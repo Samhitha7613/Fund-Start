@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            android:title="Crowdfunding" />
+
+        <TextView
+            android:id="@+id/crowdfundingDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Crowdfunding is a method of raising small amounts of money from a large number of people, often through online platforms like Kickstarter, GoFundMe, and Indiegogo. It is used by businesses and individuals to fund new projects or ventures. It became popular after the 2008 financial crisis as an alternative to traditional lending methods."
+            android:textSize="16sp"
+            android:layout_marginTop="24dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/img_9"
+            android:scaleType="fitXY"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="How Crowdfunding Works"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Entrepreneurs create a compelling pitch on crowdfunding sites. Investors contribute small amounts, starting as low as $10. Crowdfunding sites take a fee (typically 5-12%)."
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Types of Crowdfunding"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="• Reward-based: Investors receive rewards for contributing (e.g., product samples).\n• Equity-based: Investors receive equity in the business."
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Popular Platforms"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="• GoFundMe: Personal fundraising (e.g., medical expenses, emergencies).\n• Kickstarter: Creative projects and startups.\n• Indiegogo: Offers fixed and flexible funding models."
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Pros and Cons"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Pros:\n• Access to a broad investor base\n• Ability to gauge public opinion\n• No need for venture capital\n\nCons:\n• High risk for investors\n• Platform fees\n• Reputational risk for businesses"
+            android:textSize="16sp" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="100dp"/>
+    </LinearLayout>
+</ScrollView>

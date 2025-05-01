@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_funding"
+        android:title="Funding Options"
+        android:icon="@android:drawable/ic_menu_info_details" />
+    <item
+        android:id="@+id/nav_investors"
+        android:title="Investors Explorer"
+        android:icon="@android:drawable/ic_menu_search" />
+    <item
+        android:id="@+id/nav_resources"
+        android:title="Resources &amp; Learning Hub"
+        android:icon="@android:drawable/ic_menu_agenda" />
+    <item
+        android:id="@+id/nav_events"
+        android:title="Events &amp; Competing"
+        android:icon="@android:drawable/ic_menu_today" />
+</menu>

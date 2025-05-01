@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            android:title="Startup Loans" />
+
+        <TextView
+            android:id="@+id/startupBasicDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🧾 What is a Startup?"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:layout_marginTop="24dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A startup is a company in its early stages, typically founded to solve a real-world problem with an innovative product or service.\n\nKey traits include:\n1. High growth potential 🚀\n2. calable business model 📈\n3. Usually tech-focused or tech-enabled 💻\n4. Funded by founders, angel investors, or VCs \n"
+            android:textSize="16dp"
+            android:layout_marginTop="24dp" />
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/img_21"
+            android:scaleType="fitXY"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="How to Validate Your Idea"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Validating your idea means checking if real people actually want what you’re building. Don’t build in a vacuum!\n\nSteps to validate:\n1.Talk to potential users – Ask about their pain points.\n2. Build a simple version (landing page, form, demo) – See if anyone signs up.\n3. Check demand – Run Google Trends, Reddit or Twitter polls.\n4. Run test ads – Low-cost Facebook or Google ads to gauge interest.\n5. Do competitor analysis – If competitors exist, there’s probably a market."
+            android:textSize="20sp"
+             />
+<!--Types of Startup Models-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Types of Startup Models"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="1.B2B (Business to Business)"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="You sell to other businesses.\nExamples: Slack, Salesforce"
+            android:textSize="18dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="2.B2C (Business to Consumer)"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="You sell to end customers.\nExamples: Netflix, Spotify"
+            android:textSize="18dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="3.SaaS (Software as a Service)"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="You offer subscription-based software online.\nExamples: Notion, Canva"
+            android:textSize="18dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="4.Marketplace"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="You connect buyers and sellers.\nExamples: Airbnb, Uber"
+            android:textSize="18dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="5.D2C (Direct to Consumer)"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="You sell your own product directly to buyers online.\nExamples: Warby Parker, Glossier"
+            android:textSize="18dp"
+            />
+        <!--END OF TYPES OF STARTUP MODELS-->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="🔧 What is an MVP? (Minimum Viable Product)"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="An MVP is the most basic version of your product that solves the core problem — built to test whether people find it useful."
+            android:textSize="18dp"
+            />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Why MVP?"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="1. Save time and money.\n2. Avoid building the wrong productn.\n3. Get early feedback from real users.\n4. Improve before scaling."
+            android:textSize="16sp" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="100dp"/>
+    </LinearLayout>
+</ScrollView>

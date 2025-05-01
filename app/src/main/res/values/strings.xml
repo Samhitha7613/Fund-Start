@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name" translatable="false">Project</string>
+    <string name="default_web_client_id" translatable="false">955607675445-d01bknc9ra90400h6bcpikc3haenknsg.apps.googleusercontent.com</string>
+    <string name="drawer_open">Open Drawer</string>
+    <string name="drawer_close">Close Drawer</string>
+
+
+</resources>

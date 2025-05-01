@@ -1,0 +1,150 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar1"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:title="Angel Investors" />
+
+    <TextView
+        android:id="@+id/ventureDescription"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VC is private equity funding for startups and small businesses with high growth potential. It often comes from investors, banks, or firms in exchange for equity."
+        android:textSize="24dp"
+        android:layout_marginTop="24dp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/img_7"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="💼 How VC Works"
+        android:textSize="24dp"
+        android:layout_marginTop="24dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit a Plan → Startups pitch their business idea.\nDue Diligence → Investors assess the business.\nFunding in Rounds → Series A, B, etc.\nExit → Through IPO, acquisition, or merger."
+        android:textSize="16dp"
+        android:layout_marginTop="24dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🧠 Why VC Matters"
+        android:textSize="24dp"
+        android:layout_marginTop="24dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. Helps startups without cash flow or access to loans.\n2. Provides mentorship and networks.\n3. Drives innovation, especially in tech."
+        android:textSize="16dp"
+        android:layout_marginTop="24dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📊 Types of VC Funding"
+        android:textSize="24dp"
+        android:layout_marginTop="24dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. Pre-Seed: Just an idea.\n2. Seed: Launch product.\n3. Early-Stage: Scale up.\n4. Late-Stage: Mature companies, less risk."
+        android:textSize="16dp"
+        android:layout_marginTop="24dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="✅ Pros"
+        android:textSize="24dp"
+        android:layout_marginTop="24dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. No need for assets or cash flow.\n2. Mentorship + investor support.\n3. Huge growth opportunities."
+        android:textSize="16dp"
+        android:layout_marginTop="24dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="❌ Cons"
+        android:textSize="24dp"
+        android:layout_marginTop="24dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. Loss of control.\n2. Equity dilution.\n3. Pressure for fast exits."
+        android:textSize="16dp"
+        android:layout_marginTop="24dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🌎 VC Trends"
+        android:textSize="24dp"
+        android:layout_marginTop="24dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="# Most VC funds go to tech.\n# Silicon Valley leads in deals.\n# Only ~5-7% of startups deliver big returns."
+        android:textSize="16dp"
+        android:layout_marginTop="24dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="💡 Famous VC-Backed Companies"
+        android:textSize="24dp"
+        android:layout_marginTop="24dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. Apple: $250K early funding.\n2. Google: $25M Series A.\n3. Facebook: $12.7M from Accel.\n4. Amazon, Uber, Coinbase also succeeded."
+        android:textSize="16dp"
+        android:layout_marginTop="24dp"
+        android:textStyle="bold"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="100dp"/>
+
+
+</LinearLayout>
+</ScrollView>

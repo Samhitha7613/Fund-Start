@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            android:title="Angel Investors" />
+
+        <TextView
+            android:id="@+id/angelDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Angel investors are individuals who provide capital to startups in exchange for equity. They often invest during the early stages and may offer mentorship or connections."
+            android:textSize="16sp"
+            android:layout_marginTop="24dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/img_6"
+            android:scaleType="fitXY"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="How Angel Investing Works"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="The term “angel investor” originated in the Broadway theatrical world, where plays were often financed by wealthy individuals rather than formal lenders, and payments were due only when and if the production was a success. It has since come to be used for investors in startup ideas.
+\n \n Most angel investors are relatively wealthy individuals who are looking for a higher rate of return than can be found in more traditional investment opportunities. They search for startups with intriguing ideas and invest their own money to help develop them further. \n \n These ventures are, by nature, extremely risky because the ideas being invested in are unproven in the market. A survey by the Angel Capital Association estimated that only 11% of such ventures end with a positive result. Their investments in each venture are relatively modest, averaging about $42,000 for investors with more experience and $25,000 for investors with less experience.
+\n \n Most angels keep their involvement in startups to a small percentage of their portfolios. More experienced investors averaged 15%, while less experienced investors averaged only 7%. \n \n Angel investors connect with startups in need of cash through a variety of paths, including:
+\n 1. Angel groups or networks
+\n 2. Friends and associates \n 3. Online or crowdfunding platforms \n 4. Direct contact with entrepreneurs"
+            android:textSize="25dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Who can be an angel investor?"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Anyone with money and interest in startups can become one. They often fund early-stage ideas when banks won't."
+            android:textSize="25dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Why do they invest?"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="They believe in innovation and want to be involved. Most use their own money, unlike venture capitalists (VCs) who manage pooled funds."
+            android:textSize="25dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="How do they invest?"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Funds might come from an LLC, trust, or other setup for tax or legal reasons.
+\n \n Risks: \n \n If the startup fails, they lose all their money. So, they prefer startups with:
+
+\n \n 1. A clear exit strategy
+
+\n 2. Acquisition potential
+
+\n 3. IPO plans
+\n \n Accredited Investor Status:
+\n \n Not required but helpful. To qualify:
+
+\n \n 1. $1M+ net worth, or
+
+\n 2. $200K+ annual income (or $300K as a couple), and
+
+\n 3. Financial knowledge"
+            android:textSize="24dp"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="100dp"/>
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "955607675445",
+    "project_id": "login-83744",
+    "storage_bucket": "login-83744.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:955607675445:android:c2e06a804c7385aee6777c",
+        "android_client_info": {
+          "package_name": "com.example.project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQSR0D6o1ZOpDLZZHOhFj3i9m25B_fuT8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:955607675445:android:aa66f28e57de6a8be6777c",
+        "android_client_info": {
+          "package_name": "com.fundstart.project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQSR0D6o1ZOpDLZZHOhFj3i9m25B_fuT8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

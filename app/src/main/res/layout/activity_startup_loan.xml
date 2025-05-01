@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            android:title="Startup Loans" />
+
+        <TextView
+            android:id="@+id/startupLoanDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Startup loans are funds provided to entrepreneurs to help start a new business. They come from financial institutions or government-backed schemes, offering capital for business expenses like equipment, premises, marketing, and working capital."
+            android:textSize="16sp"
+            android:layout_marginTop="24dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/img_10"
+            android:scaleType="fitXY"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Types of Startup Loans"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="1. SBA Loans: Government-backed loans with favorable terms.\n2. Traditional Bank Loans: Offered by banks with stricter eligibility.\n3. Peer-to-Peer Loans: Loans from individuals via online platforms.\n4. Personal Loans: High-interest loans for entrepreneurs.\n5. VC &amp; Angel Investment: Equity-based funding."
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="How to Qualify for a Startup Loan"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="• Creditworthiness: Personal and business credit evaluation.\n• Business Plan: A solid business plan is essential.\n• Collateral: Some loans require collateral.\n• Industry Experience: Experience in the field may increase approval chances."
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Pros and Cons"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Pros:\n• Access to capital\n• Helps build business credit\n• Predictable repayment terms\n\nCons:\n• Personal liability risk\n• High interest rates\n• Strict eligibility requirements"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Startup Loan Process"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="1. Research loan options.\n2. Prepare a solid business plan.\n3. Check credit scores.\n4. Submit loan application.\n5. Receive loan approval and disbursement."
+            android:textSize="16sp" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="100dp"/>
+    </LinearLayout>
+</ScrollView>
